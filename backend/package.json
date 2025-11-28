@@ -1,0 +1,15 @@
+{
+  "name": "uptime-monitor-worker",
+  "version": "1.0.0",
+  "description": "Cloudflare Worker for Uptime Monitoring",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}

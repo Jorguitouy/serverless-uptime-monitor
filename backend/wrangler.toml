@@ -1,0 +1,19 @@
+name = "api-uptime-jorguito"
+main = "src/index.js"
+compatibility_date = "2023-10-30"
+
+# Cron Trigger: Runs every minute
+[triggers]
+crons = ["* * * * *"]
+
+[vars]
+# Las credenciales sensibles se gestionan via "wrangler secret put"
+# SUPABASE_URL = "..." (Secreto)
+# SUPABASE_SERVICE_ROLE_KEY = "..." (Secreto)
+# RESEND_API_KEY = "..." (Secreto)
+# SENDER_EMAIL = "..." (Secreto)
+
+# Observability Logs
+[observability]
+enabled = true
+head_sampling_rate = 1
